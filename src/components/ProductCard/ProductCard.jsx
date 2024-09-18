@@ -3,6 +3,7 @@ import "./ProductCard.scss";
 import { Link } from "react-router-dom";
 import { fetchProductStock } from "../../api/productStock";
 import { useState } from "react";
+import { PropTypes } from "prop-types";
 
 const ProductCard = (props) => {
   const { product } = props;
@@ -54,6 +55,10 @@ const ProductCard = (props) => {
       </Link>
     </li>
   );
+};
+
+ProductCard.propTypes = {
+  product: PropTypes.object,
 };
 
 export default ProductCard;

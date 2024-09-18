@@ -1,5 +1,5 @@
 import Navigation from "../../components/Navigation/Navigation";
-import ProductCard from "../ProductCard/ProductCard";
+import ProductCard from "../../components/ProductCard/ProductCard";
 import "./ProductListing.scss";
 import { useLoaderData } from "react-router-dom";
 

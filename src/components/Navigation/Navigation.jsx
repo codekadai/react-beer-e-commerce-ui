@@ -3,6 +3,7 @@ import Options from "../Options/Options";
 import Profile from "../Profile/Profile";
 import "./Navigation.scss";
 import { useNavigate } from "react-router-dom";
+import { PropTypes } from "prop-types";
 
 const Navigation = (props) => {
   const { type } = props;
@@ -29,6 +30,10 @@ const Navigation = (props) => {
       )}
     </nav>
   );
+};
+
+Navigation.propTypes = {
+  type: PropTypes.string,
 };
 
 export default Navigation;
