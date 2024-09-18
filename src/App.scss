@@ -1,0 +1,34 @@
+.main-content {
+  background: var(--gray-03);
+}
+
+.homepage {
+  min-height: 100vh;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.home-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.home-title {
+  color: var(--black-01);
+  font-size: var(--size-title-01);
+  font-weight: var(--weight-title-01);
+}
+
+.home-action {
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 2px 2px 4px var(--gray-02);
+  background: var(--primary);
+  color: var(--white);
+  font-size: var(--size-title-02);
+  font-weight: var(--weight-title-02);
+}

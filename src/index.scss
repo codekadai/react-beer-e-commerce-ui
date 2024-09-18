@@ -1,0 +1,49 @@
+:root {
+  --primary: #ff9f24;
+
+  --gray-01: #969696;
+  --gray-02: #646464;
+  --gray-03: #fafafa;
+
+  --black-01: #0f0d23;
+  --black-02: #323232;
+
+  --white: #fff;
+
+  --radius-01: 0.75rem;
+  --radius-02: 0.5rem 0;
+
+  --size-title-01: 1.5rem;
+  --size-title-02: 1.125rem;
+
+  --size-text-01: 1rem;
+  --size-text-02: 0.875rem;
+  --size-text-03: 0.75rem;
+
+  --weight-title-01: 700;
+  --weight-title-02: 500;
+
+  --weight-text-01: 400;
+}
+
+html {
+  font-family: "DM Sans", system-ui;
+  font-optical-sizing: auto;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}

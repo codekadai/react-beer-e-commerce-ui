@@ -1,0 +1,25 @@
+.options-close-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.options-close-button,
+.options-open-button {
+  border: 0;
+  background: var(--white);
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+}
+
+.options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0;
+  margin: 1rem;
+}
+
+.options-item {
+  list-style-type: none;
+}

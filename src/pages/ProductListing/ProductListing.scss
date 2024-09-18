@@ -1,0 +1,43 @@
+.product-listing {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  padding-bottom: 1rem;
+  gap: 1rem;
+
+  &-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  &-user-name {
+    color: var(--gray-01);
+    font-size: var(--size-text-01);
+  }
+
+  &-title {
+    color: var(--black-01);
+    font-size: var(--size-title-01);
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  &-content-title {
+    color: var(--black-01);
+    font-size: var(--size-title-02);
+  }
+
+  &-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+}

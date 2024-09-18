@@ -1,0 +1,20 @@
+.navigation {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+
+  &-left-action {
+    border: 0;
+    background: var(--white);
+    border-radius: 0.75rem;
+    padding: 0.5rem;
+  }
+
+  &-title {
+    font-size: var(--size-title-02);
+    font-weight: var(--weight-title-01);
+  }
+}
